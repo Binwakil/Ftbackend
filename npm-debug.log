@@ -1,0 +1,878 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'near-cli' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData near-cli
+8 silly fetchNamedPackageData near-cli
+9 silly mapToRegistry name near-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/near-cli
+13 verbose request uri https://registry.npmjs.org/near-cli
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 7:19:59 PM
+16 verbose request id 4a92f1668539fcb5
+17 verbose etag W/"9ce87b6fa1f91a76bb828cbd3af60f77"
+18 verbose lastModified Mon, 15 Aug 2022 10:57:59 GMT
+19 http request GET https://registry.npmjs.org/near-cli
+20 http 304 https://registry.npmjs.org/near-cli
+21 verbose headers { date: 'Tue, 20 Sep 2022 19:20:06 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '74dceaa1cc2dd42c-LOS',
+21 verbose headers   age: '275',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"9ce87b6fa1f91a76bb828cbd3af60f77"',
+21 verbose headers   'last-modified': 'Mon, 15 Aug 2022 10:57:59 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 20 Sep 2022 19:20:06 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '74dceaa1cc2dd42c-LOS',
+22 silly get     age: '275',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"9ce87b6fa1f91a76bb828cbd3af60f77"',
+22 silly get     'last-modified': 'Mon, 15 Aug 2022 10:57:59 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/near-cli from cache
+24 verbose get saving near-cli to /home/binwakili/.npm/registry.npmjs.org/near-cli/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule near-cli@3.4.2 checking installable status
+38 silly cache add args [ 'near-cli', null ]
+39 verbose cache add spec near-cli
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'near-cli',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'near-cli',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed near-cli@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for near-cli
+43 info addNameTag [ 'near-cli', 'latest' ]
+44 silly mapToRegistry name near-cli
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/near-cli
+48 verbose addNameTag registry:https://registry.npmjs.org/near-cli not in flight; fetching
+49 verbose get https://registry.npmjs.org/near-cli not expired, no request
+50 silly addNameTag next cb for near-cli with tag latest
+51 silly addNamed near-cli@3.4.2
+52 verbose addNamed "3.4.2" is a plain semver version for near-cli
+53 silly cache afterAdd near-cli@3.4.2
+54 verbose afterAdd /home/binwakili/.npm/near-cli/3.4.2/package/package.json not in flight; writing
+55 verbose afterAdd /home/binwakili/.npm/near-cli/3.4.2/package/package.json written
+56 silly fetchNamedPackageData analytics-node
+57 silly mapToRegistry name analytics-node
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/analytics-node
+61 silly fetchNamedPackageData ascii-table
+62 silly mapToRegistry name ascii-table
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/ascii-table
+66 silly fetchNamedPackageData bn.js
+67 silly mapToRegistry name bn.js
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/bn.js
+71 silly fetchNamedPackageData bs58
+72 silly mapToRegistry name bs58
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/bs58
+76 silly fetchNamedPackageData chalk
+77 silly mapToRegistry name chalk
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/chalk
+81 silly fetchNamedPackageData flagged-respawn
+82 silly mapToRegistry name flagged-respawn
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/flagged-respawn
+86 silly fetchNamedPackageData is-ci
+87 silly mapToRegistry name is-ci
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/is-ci
+91 silly fetchNamedPackageData jest-environment-node
+92 silly mapToRegistry name jest-environment-node
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/jest-environment-node
+96 silly fetchNamedPackageData ncp
+97 silly mapToRegistry name ncp
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/ncp
+101 silly fetchNamedPackageData near-api-js
+102 silly mapToRegistry name near-api-js
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/near-api-js
+106 silly fetchNamedPackageData near-seed-phrase
+107 silly mapToRegistry name near-seed-phrase
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/near-seed-phrase
+111 silly fetchNamedPackageData open
+112 silly mapToRegistry name open
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/open
+116 silly fetchNamedPackageData rimraf
+117 silly mapToRegistry name rimraf
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+121 silly fetchNamedPackageData stoppable
+122 silly mapToRegistry name stoppable
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/stoppable
+126 silly fetchNamedPackageData tcp-port-used
+127 silly mapToRegistry name tcp-port-used
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/tcp-port-used
+131 silly fetchNamedPackageData update-notifier
+132 silly mapToRegistry name update-notifier
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/update-notifier
+136 silly fetchNamedPackageData uuid
+137 silly mapToRegistry name uuid
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/uuid
+141 silly fetchNamedPackageData v8flags
+142 silly mapToRegistry name v8flags
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/v8flags
+146 silly fetchNamedPackageData yargs
+147 silly mapToRegistry name yargs
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/yargs
+151 silly fetchNamedPackageData @ledgerhq/hw-transport-node-hid
+152 silly mapToRegistry name @ledgerhq/hw-transport-node-hid
+153 silly mapToRegistry scope (from package name) @ledgerhq
+154 verbose mapToRegistry no registry URL found in name for scope @ledgerhq
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry uri https://registry.npmjs.org/@ledgerhq%2fhw-transport-node-hid
+158 silly fetchNamedPackageData near-ledger-js
+159 silly mapToRegistry name near-ledger-js
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/near-ledger-js
+163 verbose request uri https://registry.npmjs.org/ascii-table
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 7:20:07 PM
+166 verbose etag W/"2c535bd98f1d54ce1ab6c51d3814a413"
+167 verbose lastModified Mon, 13 Jun 2022 03:31:31 GMT
+168 http request GET https://registry.npmjs.org/ascii-table
+169 verbose request uri https://registry.npmjs.org/analytics-node
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 7:20:07 PM
+172 verbose etag W/"2d38170b12ce9ca2b6d81da50d70c590"
+173 verbose lastModified Tue, 02 Aug 2022 18:01:28 GMT
+174 http request GET https://registry.npmjs.org/analytics-node
+175 verbose request uri https://registry.npmjs.org/bs58
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 7:20:07 PM
+178 verbose etag W/"0654745efc7189dba0a4420fbf6e5ba2"
+179 verbose lastModified Mon, 13 Jun 2022 05:12:51 GMT
+180 http request GET https://registry.npmjs.org/bs58
+181 verbose request uri https://registry.npmjs.org/chalk
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 7:20:07 PM
+184 verbose etag W/"7e89694a58ccdd0ee0c4c56b4bdd868b"
+185 verbose lastModified Fri, 26 Aug 2022 22:48:01 GMT
+186 http request GET https://registry.npmjs.org/chalk
+187 verbose request uri https://registry.npmjs.org/is-ci
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 7:20:07 PM
+190 verbose etag W/"b72c298de0a365067824ca37540a65e0"
+191 verbose lastModified Sun, 19 Jun 2022 02:38:18 GMT
+192 http request GET https://registry.npmjs.org/is-ci
+193 verbose request uri https://registry.npmjs.org/flagged-respawn
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 7:20:07 PM
+196 verbose etag W/"10e5b4f09a6bd8a6ca10b3024e544c4a"
+197 verbose lastModified Sat, 18 Jun 2022 01:53:45 GMT
+198 http request GET https://registry.npmjs.org/flagged-respawn
+199 verbose request uri https://registry.npmjs.org/bn.js
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 7:20:07 PM
+202 verbose etag W/"36a7a6875f9388e357dabb4f27238dd0"
+203 verbose lastModified Mon, 13 Jun 2022 04:52:49 GMT
+204 http request GET https://registry.npmjs.org/bn.js
+205 verbose request uri https://registry.npmjs.org/ncp
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 7:20:07 PM
+208 verbose etag W/"2b227d3b07719edb389e20423ae74e52"
+209 verbose lastModified Mon, 20 Jun 2022 22:42:19 GMT
+210 http request GET https://registry.npmjs.org/ncp
+211 verbose request uri https://registry.npmjs.org/near-seed-phrase
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 7:20:07 PM
+214 verbose etag W/"6a26dece888c4779ac1f7aabdee4a665"
+215 verbose lastModified Tue, 10 May 2022 11:28:36 GMT
+216 http request GET https://registry.npmjs.org/near-seed-phrase
+217 verbose request uri https://registry.npmjs.org/near-api-js
+218 verbose request no auth needed
+219 info attempt registry request try #1 at 7:20:07 PM
+220 verbose etag W/"fb0dac986657303e034cddb942ecb486"
+221 verbose lastModified Thu, 25 Aug 2022 19:16:26 GMT
+222 http request GET https://registry.npmjs.org/near-api-js
+223 verbose request uri https://registry.npmjs.org/stoppable
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 7:20:07 PM
+226 verbose etag W/"50aa98030ec22a458db23d3259eca5e3"
+227 verbose lastModified Mon, 27 Jun 2022 00:30:14 GMT
+228 http request GET https://registry.npmjs.org/stoppable
+229 verbose request uri https://registry.npmjs.org/tcp-port-used
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 7:20:07 PM
+232 verbose etag W/"cf41d61c8a092e2a7f1b64cf98c4ee00"
+233 verbose lastModified Mon, 27 Jun 2022 04:15:53 GMT
+234 http request GET https://registry.npmjs.org/tcp-port-used
+235 verbose request uri https://registry.npmjs.org/update-notifier
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 7:20:07 PM
+238 verbose etag W/"c70e57078a11b43feac2e8c1ca64d23f"
+239 verbose lastModified Tue, 28 Jun 2022 05:36:55 GMT
+240 http request GET https://registry.npmjs.org/update-notifier
+241 verbose request uri https://registry.npmjs.org/jest-environment-node
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 7:20:07 PM
+244 verbose etag W/"e61578422e36af5dbeb2d34a6b7a1bbc"
+245 verbose lastModified Sat, 10 Sep 2022 14:41:46 GMT
+246 http request GET https://registry.npmjs.org/jest-environment-node
+247 verbose request uri https://registry.npmjs.org/v8flags
+248 verbose request no auth needed
+249 info attempt registry request try #1 at 7:20:07 PM
+250 verbose etag W/"cbe998179cd75cdc8797c4cbd65b9ecb"
+251 verbose lastModified Tue, 28 Jun 2022 08:12:26 GMT
+252 http request GET https://registry.npmjs.org/v8flags
+253 verbose request uri https://registry.npmjs.org/uuid
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 7:20:07 PM
+256 verbose etag W/"51944bd05278f8d4198295003d8201d3"
+257 verbose lastModified Sun, 11 Sep 2022 03:37:13 GMT
+258 http request GET https://registry.npmjs.org/uuid
+259 verbose request uri https://registry.npmjs.org/@ledgerhq%2fhw-transport-node-hid
+260 verbose request no auth needed
+261 info attempt registry request try #1 at 7:20:07 PM
+262 verbose etag W/"981acb7133183f9a4ed6a0d752645215"
+263 verbose lastModified Sat, 17 Sep 2022 03:00:41 GMT
+264 http request GET https://registry.npmjs.org/@ledgerhq%2fhw-transport-node-hid
+265 verbose request uri https://registry.npmjs.org/yargs
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 7:20:07 PM
+268 verbose etag W/"cfc4cbef74afcdd1bd02f3a0df4ae0b2"
+269 verbose lastModified Sun, 04 Sep 2022 08:07:42 GMT
+270 http request GET https://registry.npmjs.org/yargs
+271 verbose request uri https://registry.npmjs.org/near-ledger-js
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 7:20:07 PM
+274 verbose etag W/"46b7f0ca3ec3b0d00c9cf3f0dfe6566b"
+275 verbose lastModified Tue, 10 May 2022 11:28:03 GMT
+276 http request GET https://registry.npmjs.org/near-ledger-js
+277 verbose request uri https://registry.npmjs.org/open
+278 verbose request no auth needed
+279 info attempt registry request try #1 at 7:20:07 PM
+280 verbose etag W/"dd76ced8f649c0c27e6d6db48b122238"
+281 verbose lastModified Wed, 22 Jun 2022 23:07:13 GMT
+282 http request GET https://registry.npmjs.org/open
+283 verbose request uri https://registry.npmjs.org/rimraf
+284 verbose request no auth needed
+285 info attempt registry request try #1 at 7:20:07 PM
+286 verbose etag W/"67dfc7bff1f5286bd2828834a02676b8"
+287 verbose lastModified Sun, 26 Jun 2022 13:18:50 GMT
+288 http request GET https://registry.npmjs.org/rimraf
+289 http 304 https://registry.npmjs.org/ascii-table
+290 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+290 verbose headers   connection: 'keep-alive',
+290 verbose headers   'cf-ray': '74dceaa5c84ad42c-LOS',
+290 verbose headers   age: '274',
+290 verbose headers   'cache-control': 'public, max-age=300',
+290 verbose headers   etag: '"2c535bd98f1d54ce1ab6c51d3814a413"',
+290 verbose headers   'last-modified': 'Mon, 13 Jun 2022 03:31:31 GMT',
+290 verbose headers   vary: 'Accept-Encoding',
+290 verbose headers   'cf-cache-status': 'HIT',
+290 verbose headers   'x-amz-replication-status': 'COMPLETED',
+290 verbose headers   server: 'cloudflare' }
+291 silly get cb [ 304,
+291 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+291 silly get     connection: 'keep-alive',
+291 silly get     'cf-ray': '74dceaa5c84ad42c-LOS',
+291 silly get     age: '274',
+291 silly get     'cache-control': 'public, max-age=300',
+291 silly get     etag: '"2c535bd98f1d54ce1ab6c51d3814a413"',
+291 silly get     'last-modified': 'Mon, 13 Jun 2022 03:31:31 GMT',
+291 silly get     vary: 'Accept-Encoding',
+291 silly get     'cf-cache-status': 'HIT',
+291 silly get     'x-amz-replication-status': 'COMPLETED',
+291 silly get     server: 'cloudflare' } ]
+292 verbose etag https://registry.npmjs.org/ascii-table from cache
+293 verbose get saving ascii-table to /home/binwakili/.npm/registry.npmjs.org/ascii-table/.cache.json
+294 silly resolveWithNewModule ascii-table@0.0.9 checking installable status
+295 silly cache add args [ 'ascii-table@0.0.9', null ]
+296 verbose cache add spec ascii-table@0.0.9
+297 silly cache add parsed spec Result {
+297 silly cache add   raw: 'ascii-table@0.0.9',
+297 silly cache add   scope: null,
+297 silly cache add   name: 'ascii-table',
+297 silly cache add   rawSpec: '0.0.9',
+297 silly cache add   spec: '0.0.9',
+297 silly cache add   type: 'version' }
+298 silly addNamed ascii-table@0.0.9
+299 verbose addNamed "0.0.9" is a plain semver version for ascii-table
+300 silly mapToRegistry name ascii-table
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry uri https://registry.npmjs.org/ascii-table
+304 verbose addNameVersion registry:https://registry.npmjs.org/ascii-table not in flight; fetching
+305 verbose get https://registry.npmjs.org/ascii-table not expired, no request
+306 silly cache afterAdd ascii-table@0.0.9
+307 verbose afterAdd /home/binwakili/.npm/ascii-table/0.0.9/package/package.json not in flight; writing
+308 verbose afterAdd /home/binwakili/.npm/ascii-table/0.0.9/package/package.json written
+309 http 304 https://registry.npmjs.org/flagged-respawn
+310 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+310 verbose headers   connection: 'keep-alive',
+310 verbose headers   'cf-ray': '74dceaa77d2bd418-LOS',
+310 verbose headers   age: '274',
+310 verbose headers   'cache-control': 'public, max-age=300',
+310 verbose headers   etag: '"10e5b4f09a6bd8a6ca10b3024e544c4a"',
+310 verbose headers   'last-modified': 'Sat, 18 Jun 2022 01:53:45 GMT',
+310 verbose headers   vary: 'Accept-Encoding',
+310 verbose headers   'cf-cache-status': 'HIT',
+310 verbose headers   'x-amz-replication-status': 'COMPLETED',
+310 verbose headers   server: 'cloudflare' }
+311 silly get cb [ 304,
+311 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+311 silly get     connection: 'keep-alive',
+311 silly get     'cf-ray': '74dceaa77d2bd418-LOS',
+311 silly get     age: '274',
+311 silly get     'cache-control': 'public, max-age=300',
+311 silly get     etag: '"10e5b4f09a6bd8a6ca10b3024e544c4a"',
+311 silly get     'last-modified': 'Sat, 18 Jun 2022 01:53:45 GMT',
+311 silly get     vary: 'Accept-Encoding',
+311 silly get     'cf-cache-status': 'HIT',
+311 silly get     'x-amz-replication-status': 'COMPLETED',
+311 silly get     server: 'cloudflare' } ]
+312 verbose etag https://registry.npmjs.org/flagged-respawn from cache
+313 verbose get saving flagged-respawn to /home/binwakili/.npm/registry.npmjs.org/flagged-respawn/.cache.json
+314 http 304 https://registry.npmjs.org/tcp-port-used
+315 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+315 verbose headers   connection: 'keep-alive',
+315 verbose headers   'cf-ray': '74dceaa78c30d414-LOS',
+315 verbose headers   age: '273',
+315 verbose headers   'cache-control': 'public, max-age=300',
+315 verbose headers   etag: '"cf41d61c8a092e2a7f1b64cf98c4ee00"',
+315 verbose headers   'last-modified': 'Mon, 27 Jun 2022 04:15:53 GMT',
+315 verbose headers   vary: 'Accept-Encoding',
+315 verbose headers   'cf-cache-status': 'HIT',
+315 verbose headers   'x-amz-replication-status': 'COMPLETED',
+315 verbose headers   server: 'cloudflare' }
+316 silly get cb [ 304,
+316 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+316 silly get     connection: 'keep-alive',
+316 silly get     'cf-ray': '74dceaa78c30d414-LOS',
+316 silly get     age: '273',
+316 silly get     'cache-control': 'public, max-age=300',
+316 silly get     etag: '"cf41d61c8a092e2a7f1b64cf98c4ee00"',
+316 silly get     'last-modified': 'Mon, 27 Jun 2022 04:15:53 GMT',
+316 silly get     vary: 'Accept-Encoding',
+316 silly get     'cf-cache-status': 'HIT',
+316 silly get     'x-amz-replication-status': 'COMPLETED',
+316 silly get     server: 'cloudflare' } ]
+317 verbose etag https://registry.npmjs.org/tcp-port-used from cache
+318 verbose get saving tcp-port-used to /home/binwakili/.npm/registry.npmjs.org/tcp-port-used/.cache.json
+319 silly resolveWithNewModule flagged-respawn@1.0.1 checking installable status
+320 silly cache add args [ 'flagged-respawn@^1.0.1', null ]
+321 verbose cache add spec flagged-respawn@^1.0.1
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'flagged-respawn@^1.0.1',
+322 silly cache add   scope: null,
+322 silly cache add   name: 'flagged-respawn',
+322 silly cache add   rawSpec: '^1.0.1',
+322 silly cache add   spec: '>=1.0.1 <2.0.0',
+322 silly cache add   type: 'range' }
+323 silly addNamed flagged-respawn@>=1.0.1 <2.0.0
+324 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for flagged-respawn
+325 silly addNameRange { name: 'flagged-respawn',
+325 silly addNameRange   range: '>=1.0.1 <2.0.0',
+325 silly addNameRange   hasData: false }
+326 silly mapToRegistry name flagged-respawn
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/flagged-respawn
+330 verbose addNameRange registry:https://registry.npmjs.org/flagged-respawn not in flight; fetching
+331 http 304 https://registry.npmjs.org/chalk
+332 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+332 verbose headers   connection: 'keep-alive',
+332 verbose headers   'cf-ray': '74dceaa76d29d418-LOS',
+332 verbose headers   age: '275',
+332 verbose headers   'cache-control': 'public, max-age=300',
+332 verbose headers   etag: '"7e89694a58ccdd0ee0c4c56b4bdd868b"',
+332 verbose headers   'last-modified': 'Fri, 26 Aug 2022 22:48:01 GMT',
+332 verbose headers   vary: 'Accept-Encoding',
+332 verbose headers   'cf-cache-status': 'HIT',
+332 verbose headers   'x-amz-replication-status': 'COMPLETED',
+332 verbose headers   server: 'cloudflare' }
+333 silly get cb [ 304,
+333 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+333 silly get     connection: 'keep-alive',
+333 silly get     'cf-ray': '74dceaa76d29d418-LOS',
+333 silly get     age: '275',
+333 silly get     'cache-control': 'public, max-age=300',
+333 silly get     etag: '"7e89694a58ccdd0ee0c4c56b4bdd868b"',
+333 silly get     'last-modified': 'Fri, 26 Aug 2022 22:48:01 GMT',
+333 silly get     vary: 'Accept-Encoding',
+333 silly get     'cf-cache-status': 'HIT',
+333 silly get     'x-amz-replication-status': 'COMPLETED',
+333 silly get     server: 'cloudflare' } ]
+334 verbose etag https://registry.npmjs.org/chalk from cache
+335 verbose get saving chalk to /home/binwakili/.npm/registry.npmjs.org/chalk/.cache.json
+336 http 304 https://registry.npmjs.org/near-api-js
+337 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+337 verbose headers   connection: 'keep-alive',
+337 verbose headers   'cf-ray': '74dceaa7891dd430-LOS',
+337 verbose headers   age: '274',
+337 verbose headers   'cache-control': 'public, max-age=300',
+337 verbose headers   etag: '"fb0dac986657303e034cddb942ecb486"',
+337 verbose headers   'last-modified': 'Thu, 25 Aug 2022 19:16:26 GMT',
+337 verbose headers   vary: 'Accept-Encoding',
+337 verbose headers   'cf-cache-status': 'HIT',
+337 verbose headers   'x-amz-replication-status': 'COMPLETED',
+337 verbose headers   server: 'cloudflare' }
+338 silly get cb [ 304,
+338 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+338 silly get     connection: 'keep-alive',
+338 silly get     'cf-ray': '74dceaa7891dd430-LOS',
+338 silly get     age: '274',
+338 silly get     'cache-control': 'public, max-age=300',
+338 silly get     etag: '"fb0dac986657303e034cddb942ecb486"',
+338 silly get     'last-modified': 'Thu, 25 Aug 2022 19:16:26 GMT',
+338 silly get     vary: 'Accept-Encoding',
+338 silly get     'cf-cache-status': 'HIT',
+338 silly get     'x-amz-replication-status': 'COMPLETED',
+338 silly get     server: 'cloudflare' } ]
+339 verbose etag https://registry.npmjs.org/near-api-js from cache
+340 verbose get saving near-api-js to /home/binwakili/.npm/registry.npmjs.org/near-api-js/.cache.json
+341 http 304 https://registry.npmjs.org/jest-environment-node
+342 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+342 verbose headers   connection: 'keep-alive',
+342 verbose headers   'cf-ray': '74dceaa78f0ed420-LOS',
+342 verbose headers   age: '274',
+342 verbose headers   'cache-control': 'public, max-age=300',
+342 verbose headers   etag: '"e61578422e36af5dbeb2d34a6b7a1bbc"',
+342 verbose headers   'last-modified': 'Sat, 10 Sep 2022 14:41:46 GMT',
+342 verbose headers   vary: 'Accept-Encoding',
+342 verbose headers   'cf-cache-status': 'HIT',
+342 verbose headers   'x-amz-replication-status': 'COMPLETED',
+342 verbose headers   server: 'cloudflare' }
+343 silly get cb [ 304,
+343 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+343 silly get     connection: 'keep-alive',
+343 silly get     'cf-ray': '74dceaa78f0ed420-LOS',
+343 silly get     age: '274',
+343 silly get     'cache-control': 'public, max-age=300',
+343 silly get     etag: '"e61578422e36af5dbeb2d34a6b7a1bbc"',
+343 silly get     'last-modified': 'Sat, 10 Sep 2022 14:41:46 GMT',
+343 silly get     vary: 'Accept-Encoding',
+343 silly get     'cf-cache-status': 'HIT',
+343 silly get     'x-amz-replication-status': 'COMPLETED',
+343 silly get     server: 'cloudflare' } ]
+344 verbose etag https://registry.npmjs.org/jest-environment-node from cache
+345 verbose get saving jest-environment-node to /home/binwakili/.npm/registry.npmjs.org/jest-environment-node/.cache.json
+346 http 304 https://registry.npmjs.org/yargs
+347 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+347 verbose headers   connection: 'keep-alive',
+347 verbose headers   'cf-ray': '74dceaa78c31d414-LOS',
+347 verbose headers   age: '274',
+347 verbose headers   'cache-control': 'public, max-age=300',
+347 verbose headers   etag: '"cfc4cbef74afcdd1bd02f3a0df4ae0b2"',
+347 verbose headers   'last-modified': 'Sun, 04 Sep 2022 08:07:42 GMT',
+347 verbose headers   vary: 'Accept-Encoding',
+347 verbose headers   'cf-cache-status': 'HIT',
+347 verbose headers   'x-amz-replication-status': 'COMPLETED',
+347 verbose headers   server: 'cloudflare' }
+348 silly get cb [ 304,
+348 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+348 silly get     connection: 'keep-alive',
+348 silly get     'cf-ray': '74dceaa78c31d414-LOS',
+348 silly get     age: '274',
+348 silly get     'cache-control': 'public, max-age=300',
+348 silly get     etag: '"cfc4cbef74afcdd1bd02f3a0df4ae0b2"',
+348 silly get     'last-modified': 'Sun, 04 Sep 2022 08:07:42 GMT',
+348 silly get     vary: 'Accept-Encoding',
+348 silly get     'cf-cache-status': 'HIT',
+348 silly get     'x-amz-replication-status': 'COMPLETED',
+348 silly get     server: 'cloudflare' } ]
+349 verbose etag https://registry.npmjs.org/yargs from cache
+350 verbose get saving yargs to /home/binwakili/.npm/registry.npmjs.org/yargs/.cache.json
+351 http 304 https://registry.npmjs.org/analytics-node
+352 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+352 verbose headers   connection: 'keep-alive',
+352 verbose headers   'cf-ray': '74dceaa7ad6ed418-LOS',
+352 verbose headers   age: '274',
+352 verbose headers   'cache-control': 'public, max-age=300',
+352 verbose headers   etag: '"2d38170b12ce9ca2b6d81da50d70c590"',
+352 verbose headers   'last-modified': 'Tue, 02 Aug 2022 18:01:28 GMT',
+352 verbose headers   vary: 'Accept-Encoding',
+352 verbose headers   'cf-cache-status': 'HIT',
+352 verbose headers   'x-amz-replication-status': 'COMPLETED',
+352 verbose headers   server: 'cloudflare' }
+353 silly get cb [ 304,
+353 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+353 silly get     connection: 'keep-alive',
+353 silly get     'cf-ray': '74dceaa7ad6ed418-LOS',
+353 silly get     age: '274',
+353 silly get     'cache-control': 'public, max-age=300',
+353 silly get     etag: '"2d38170b12ce9ca2b6d81da50d70c590"',
+353 silly get     'last-modified': 'Tue, 02 Aug 2022 18:01:28 GMT',
+353 silly get     vary: 'Accept-Encoding',
+353 silly get     'cf-cache-status': 'HIT',
+353 silly get     'x-amz-replication-status': 'COMPLETED',
+353 silly get     server: 'cloudflare' } ]
+354 verbose etag https://registry.npmjs.org/analytics-node from cache
+355 verbose get saving analytics-node to /home/binwakili/.npm/registry.npmjs.org/analytics-node/.cache.json
+356 http 304 https://registry.npmjs.org/near-ledger-js
+357 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+357 verbose headers   connection: 'keep-alive',
+357 verbose headers   'cf-ray': '74dceaa7b9e3d42c-LOS',
+357 verbose headers   age: '274',
+357 verbose headers   'cache-control': 'public, max-age=300',
+357 verbose headers   etag: '"46b7f0ca3ec3b0d00c9cf3f0dfe6566b"',
+357 verbose headers   'last-modified': 'Tue, 10 May 2022 11:28:03 GMT',
+357 verbose headers   vary: 'Accept-Encoding',
+357 verbose headers   'cf-cache-status': 'HIT',
+357 verbose headers   'x-amz-replication-status': 'COMPLETED',
+357 verbose headers   server: 'cloudflare' }
+358 silly get cb [ 304,
+358 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+358 silly get     connection: 'keep-alive',
+358 silly get     'cf-ray': '74dceaa7b9e3d42c-LOS',
+358 silly get     age: '274',
+358 silly get     'cache-control': 'public, max-age=300',
+358 silly get     etag: '"46b7f0ca3ec3b0d00c9cf3f0dfe6566b"',
+358 silly get     'last-modified': 'Tue, 10 May 2022 11:28:03 GMT',
+358 silly get     vary: 'Accept-Encoding',
+358 silly get     'cf-cache-status': 'HIT',
+358 silly get     'x-amz-replication-status': 'COMPLETED',
+358 silly get     server: 'cloudflare' } ]
+359 verbose etag https://registry.npmjs.org/near-ledger-js from cache
+360 verbose get saving near-ledger-js to /home/binwakili/.npm/registry.npmjs.org/near-ledger-js/.cache.json
+361 http 304 https://registry.npmjs.org/near-seed-phrase
+362 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+362 verbose headers   connection: 'keep-alive',
+362 verbose headers   'cf-ray': '74dceaa7bd91d418-LOS',
+362 verbose headers   age: '274',
+362 verbose headers   'cache-control': 'public, max-age=300',
+362 verbose headers   etag: '"6a26dece888c4779ac1f7aabdee4a665"',
+362 verbose headers   'last-modified': 'Tue, 10 May 2022 11:28:36 GMT',
+362 verbose headers   vary: 'Accept-Encoding',
+362 verbose headers   'cf-cache-status': 'HIT',
+362 verbose headers   'x-amz-replication-status': 'COMPLETED',
+362 verbose headers   server: 'cloudflare' }
+363 silly get cb [ 304,
+363 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+363 silly get     connection: 'keep-alive',
+363 silly get     'cf-ray': '74dceaa7bd91d418-LOS',
+363 silly get     age: '274',
+363 silly get     'cache-control': 'public, max-age=300',
+363 silly get     etag: '"6a26dece888c4779ac1f7aabdee4a665"',
+363 silly get     'last-modified': 'Tue, 10 May 2022 11:28:36 GMT',
+363 silly get     vary: 'Accept-Encoding',
+363 silly get     'cf-cache-status': 'HIT',
+363 silly get     'x-amz-replication-status': 'COMPLETED',
+363 silly get     server: 'cloudflare' } ]
+364 verbose etag https://registry.npmjs.org/near-seed-phrase from cache
+365 verbose get saving near-seed-phrase to /home/binwakili/.npm/registry.npmjs.org/near-seed-phrase/.cache.json
+366 http 304 https://registry.npmjs.org/bn.js
+367 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+367 verbose headers   connection: 'keep-alive',
+367 verbose headers   'cf-ray': '74dceaa7bd7fd418-LOS',
+367 verbose headers   age: '275',
+367 verbose headers   'cache-control': 'public, max-age=300',
+367 verbose headers   etag: '"36a7a6875f9388e357dabb4f27238dd0"',
+367 verbose headers   'last-modified': 'Mon, 13 Jun 2022 04:52:49 GMT',
+367 verbose headers   vary: 'Accept-Encoding',
+367 verbose headers   'cf-cache-status': 'HIT',
+367 verbose headers   'x-amz-replication-status': 'PENDING',
+367 verbose headers   server: 'cloudflare' }
+368 silly get cb [ 304,
+368 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+368 silly get     connection: 'keep-alive',
+368 silly get     'cf-ray': '74dceaa7bd7fd418-LOS',
+368 silly get     age: '275',
+368 silly get     'cache-control': 'public, max-age=300',
+368 silly get     etag: '"36a7a6875f9388e357dabb4f27238dd0"',
+368 silly get     'last-modified': 'Mon, 13 Jun 2022 04:52:49 GMT',
+368 silly get     vary: 'Accept-Encoding',
+368 silly get     'cf-cache-status': 'HIT',
+368 silly get     'x-amz-replication-status': 'PENDING',
+368 silly get     server: 'cloudflare' } ]
+369 verbose etag https://registry.npmjs.org/bn.js from cache
+370 verbose get saving bn.js to /home/binwakili/.npm/registry.npmjs.org/bn.js/.cache.json
+371 http 304 https://registry.npmjs.org/open
+372 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+372 verbose headers   connection: 'keep-alive',
+372 verbose headers   'cf-ray': '74dceaa7bf46d420-LOS',
+372 verbose headers   age: '274',
+372 verbose headers   'cache-control': 'public, max-age=300',
+372 verbose headers   etag: '"dd76ced8f649c0c27e6d6db48b122238"',
+372 verbose headers   'last-modified': 'Wed, 22 Jun 2022 23:07:13 GMT',
+372 verbose headers   vary: 'Accept-Encoding',
+372 verbose headers   'cf-cache-status': 'HIT',
+372 verbose headers   'x-amz-replication-status': 'COMPLETED',
+372 verbose headers   server: 'cloudflare' }
+373 silly get cb [ 304,
+373 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+373 silly get     connection: 'keep-alive',
+373 silly get     'cf-ray': '74dceaa7bf46d420-LOS',
+373 silly get     age: '274',
+373 silly get     'cache-control': 'public, max-age=300',
+373 silly get     etag: '"dd76ced8f649c0c27e6d6db48b122238"',
+373 silly get     'last-modified': 'Wed, 22 Jun 2022 23:07:13 GMT',
+373 silly get     vary: 'Accept-Encoding',
+373 silly get     'cf-cache-status': 'HIT',
+373 silly get     'x-amz-replication-status': 'COMPLETED',
+373 silly get     server: 'cloudflare' } ]
+374 verbose etag https://registry.npmjs.org/open from cache
+375 verbose get saving open to /home/binwakili/.npm/registry.npmjs.org/open/.cache.json
+376 silly resolveWithNewModule tcp-port-used@1.0.2 checking installable status
+377 silly cache add args [ 'tcp-port-used@^1.0.1', null ]
+378 verbose cache add spec tcp-port-used@^1.0.1
+379 silly cache add parsed spec Result {
+379 silly cache add   raw: 'tcp-port-used@^1.0.1',
+379 silly cache add   scope: null,
+379 silly cache add   name: 'tcp-port-used',
+379 silly cache add   rawSpec: '^1.0.1',
+379 silly cache add   spec: '>=1.0.1 <2.0.0',
+379 silly cache add   type: 'range' }
+380 silly addNamed tcp-port-used@>=1.0.1 <2.0.0
+381 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for tcp-port-used
+382 silly addNameRange { name: 'tcp-port-used',
+382 silly addNameRange   range: '>=1.0.1 <2.0.0',
+382 silly addNameRange   hasData: false }
+383 silly mapToRegistry name tcp-port-used
+384 silly mapToRegistry using default registry
+385 silly mapToRegistry registry https://registry.npmjs.org/
+386 silly mapToRegistry uri https://registry.npmjs.org/tcp-port-used
+387 verbose addNameRange registry:https://registry.npmjs.org/tcp-port-used not in flight; fetching
+388 http 304 https://registry.npmjs.org/rimraf
+389 verbose headers { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'cf-ray': '74dceaa7cbffd424-LOS',
+389 verbose headers   age: '274',
+389 verbose headers   'cache-control': 'public, max-age=300',
+389 verbose headers   etag: '"67dfc7bff1f5286bd2828834a02676b8"',
+389 verbose headers   'last-modified': 'Sun, 26 Jun 2022 13:18:50 GMT',
+389 verbose headers   vary: 'Accept-Encoding',
+389 verbose headers   'cf-cache-status': 'HIT',
+389 verbose headers   'x-amz-replication-status': 'COMPLETED',
+389 verbose headers   server: 'cloudflare' }
+390 silly get cb [ 304,
+390 silly get   { date: 'Tue, 20 Sep 2022 19:20:07 GMT',
+390 silly get     connection: 'keep-alive',
+390 silly get     'cf-ray': '74dceaa7cbffd424-LOS',
+390 silly get     age: '274',
+390 silly get     'cache-control': 'public, max-age=300',
+390 silly get     etag: '"67dfc7bff1f5286bd2828834a02676b8"',
+390 silly get     'last-modified': 'Sun, 26 Jun 2022 13:18:50 GMT',
+390 silly get     vary: 'Accept-Encoding',
+390 silly get     'cf-cache-status': 'HIT',
+390 silly get     'x-amz-replication-status': 'COMPLETED',
+390 silly get     server: 'cloudflare' } ]
+391 verbose etag https://registry.npmjs.org/rimraf from cache
+392 verbose get saving rimraf to /home/binwakili/.npm/registry.npmjs.org/rimraf/.cache.json
+393 verbose get https://registry.npmjs.org/flagged-respawn not expired, no request
+394 silly addNameRange number 2 { name: 'flagged-respawn',
+394 silly addNameRange   range: '>=1.0.1 <2.0.0',
+394 silly addNameRange   hasData: true }
+395 silly addNameRange versions [ 'flagged-respawn',
+395 silly addNameRange   [ '0.1.0',
+395 silly addNameRange     '0.1.1',
+395 silly addNameRange     '0.1.2',
+395 silly addNameRange     '0.2.0',
+395 silly addNameRange     '0.3.0',
+395 silly addNameRange     '0.3.1',
+395 silly addNameRange     '0.3.2',
+395 silly addNameRange     '1.0.0',
+395 silly addNameRange     '1.0.1',
+395 silly addNameRange     '2.0.0' ] ]
+396 silly addNamed flagged-respawn@1.0.1
+397 verbose addNamed "1.0.1" is a plain semver version for flagged-respawn
+398 verbose get https://registry.npmjs.org/tcp-port-used not expired, no request
+399 silly addNameRange number 2 { name: 'tcp-port-used', range: '>=1.0.1 <2.0.0', hasData: true }
+400 silly addNameRange versions [ 'tcp-port-used',
+400 silly addNameRange   [ '0.0.1',
+400 silly addNameRange     '0.0.2',
+400 silly addNameRange     '0.0.3',
+400 silly addNameRange     '0.0.5',
+400 silly addNameRange     '0.0.6',
+400 silly addNameRange     '0.0.7',
+400 silly addNameRange     '0.1.0',
+400 silly addNameRange     '0.1.1',
+400 silly addNameRange     '0.1.2',
+400 silly addNameRange     '1.0.0',
+400 silly addNameRange     '1.0.1',
+400 silly addNameRange     '1.0.2' ] ]
+401 silly addNamed tcp-port-used@1.0.2
+402 verbose addNamed "1.0.2" is a plain semver version for tcp-port-used
+403 silly resolveWithNewModule chalk@4.1.2 checking installable status
+404 silly cache add args [ 'chalk@^4.0.0', null ]
+405 verbose cache add spec chalk@^4.0.0
+406 silly cache add parsed spec Result {
+406 silly cache add   raw: 'chalk@^4.0.0',
+406 silly cache add   scope: null,
+406 silly cache add   name: 'chalk',
+406 silly cache add   rawSpec: '^4.0.0',
+406 silly cache add   spec: '>=4.0.0 <5.0.0',
+406 silly cache add   type: 'range' }
+407 silly addNamed chalk@>=4.0.0 <5.0.0
+408 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for chalk
+409 silly addNameRange { name: 'chalk', range: '>=4.0.0 <5.0.0', hasData: false }
+410 silly mapToRegistry name chalk
+411 silly mapToRegistry using default registry
+412 silly mapToRegistry registry https://registry.npmjs.org/
+413 silly mapToRegistry uri https://registry.npmjs.org/chalk
+414 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+415 silly resolveWithNewModule analytics-node@6.2.0 checking installable status
+416 silly cache add args [ 'analytics-node@^6.1.0', null ]
+417 verbose cache add spec analytics-node@^6.1.0
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'analytics-node@^6.1.0',
+418 silly cache add   scope: null,
+418 silly cache add   name: 'analytics-node',
+418 silly cache add   rawSpec: '^6.1.0',
+418 silly cache add   spec: '>=6.1.0 <7.0.0',
+418 silly cache add   type: 'range' }
+419 silly addNamed analytics-node@>=6.1.0 <7.0.0
+420 verbose addNamed ">=6.1.0 <7.0.0" is a valid semver range for analytics-node
+421 silly addNameRange { name: 'analytics-node',
+421 silly addNameRange   range: '>=6.1.0 <7.0.0',
+421 silly addNameRange   hasData: false }
+422 silly mapToRegistry name analytics-node
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npmjs.org/
+425 silly mapToRegistry uri https://registry.npmjs.org/analytics-node
+426 verbose addNameRange registry:https://registry.npmjs.org/analytics-node not in flight; fetching
+427 silly resolveWithNewModule near-api-js@0.44.2 checking installable status
+428 silly cache add args [ 'near-api-js@^0.44.2', null ]
+429 verbose cache add spec near-api-js@^0.44.2
+430 silly cache add parsed spec Result {
+430 silly cache add   raw: 'near-api-js@^0.44.2',
+430 silly cache add   scope: null,
+430 silly cache add   name: 'near-api-js',
+430 silly cache add   rawSpec: '^0.44.2',
+430 silly cache add   spec: '>=0.44.2 <0.45.0',
+430 silly cache add   type: 'range' }
+431 silly addNamed near-api-js@>=0.44.2 <0.45.0
+432 verbose addNamed ">=0.44.2 <0.45.0" is a valid semver range for near-api-js
+433 silly addNameRange { name: 'near-api-js',
+433 silly addNameRange   range: '>=0.44.2 <0.45.0',
+433 silly addNameRange   hasData: false }
+434 silly mapToRegistry name near-api-js
+435 silly mapToRegistry using default registry
+436 silly mapToRegistry registry https://registry.npmjs.org/
+437 silly mapToRegistry uri https://registry.npmjs.org/near-api-js
+438 verbose addNameRange registry:https://registry.npmjs.org/near-api-js not in flight; fetching
+439 silly resolveWithNewModule near-ledger-js@0.2.1 checking installable status
+440 silly cache add args [ 'near-ledger-js@^0.2.0', null ]
+441 verbose cache add spec near-ledger-js@^0.2.0
+442 silly cache add parsed spec Result {
+442 silly cache add   raw: 'near-ledger-js@^0.2.0',
+442 silly cache add   scope: null,
+442 silly cache add   name: 'near-ledger-js',
+442 silly cache add   rawSpec: '^0.2.0',
+442 silly cache add   spec: '>=0.2.0 <0.3.0',
+442 silly cache add   type: 'range' }
+443 silly addNamed near-ledger-js@>=0.2.0 <0.3.0
+444 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for near-ledger-js
+445 silly addNameRange { name: 'near-ledger-js',
+445 silly addNameRange   range: '>=0.2.0 <0.3.0',
+445 silly addNameRange   hasData: false }
+446 silly mapToRegistry name near-ledger-js
+447 silly mapToRegistry using default registry
+448 silly mapToRegistry registry https://registry.npmjs.org/
+449 silly mapToRegistry uri https://registry.npmjs.org/near-ledger-js
+450 verbose addNameRange registry:https://registry.npmjs.org/near-ledger-js not in flight; fetching
+451 silly resolveWithNewModule jest-environment-node@27.5.1 checking installable status
+452 silly cache add args [ 'jest-environment-node@^27.0.6', null ]
+453 verbose cache add spec jest-environment-node@^27.0.6
+454 silly cache add parsed spec Result {
+454 silly cache add   raw: 'jest-environment-node@^27.0.6',
+454 silly cache add   scope: null,
+454 silly cache add   name: 'jest-environment-node',
+454 silly cache add   rawSpec: '^27.0.6',
+454 silly cache add   spec: '>=27.0.6 <28.0.0',
+454 silly cache add   type: 'range' }
+455 silly addNamed jest-environment-node@>=27.0.6 <28.0.0
+456 verbose addNamed ">=27.0.6 <28.0.0" is a valid semver range for jest-environment-node
+457 silly addNameRange { name: 'jest-environment-node',
+457 silly addNameRange   range: '>=27.0.6 <28.0.0',
+457 silly addNameRange   hasData: false }
+458 silly mapToRegistry name jest-environment-node
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry https://registry.npmjs.org/
+461 silly mapToRegistry uri https://registry.npmjs.org/jest-environment-node
+462 verbose addNameRange registry:https://registry.npmjs.org/jest-environment-node not in flight; fetching
+463 verbose stack Error: Missing required argument #1
+463 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+463 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+463 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+463 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+463 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+463 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+463 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+463 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+463 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+463 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+464 verbose cwd /home/binwakili/Blockchain/Ftbackend
+465 error Linux 4.18.0-15-generic
+466 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "near-cli"
+467 error node v8.10.0
+468 error npm  v3.5.2
+469 error code EMISSINGARG
+470 error typeerror Error: Missing required argument #1
+470 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+470 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+470 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+470 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+470 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+470 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+470 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+470 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+470 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+470 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+471 error typeerror This is an error with npm itself. Please report this error at:
+471 error typeerror     <http://github.com/npm/npm/issues>
+472 verbose exit [ 1, true ]
